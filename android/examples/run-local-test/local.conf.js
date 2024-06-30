@@ -22,7 +22,7 @@ exports.config = {
     name: 'local_test',
     device: 'Google Pixel 3',
     os_version: "9.0",
-    app: process.env.BROWSERSTACK_APP_ID || 'bs://5674acb904bba83eb33414bd9afaa79645b5b5ba',
+    app: process.env.BROWSERSTACK_APP_ID || '',
     'browserstack.local': true,
     'browserstack.debug': true
   }],
